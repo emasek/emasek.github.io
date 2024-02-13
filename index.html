@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Template EM</title>
+<!--My  Lab 2 template Ella Masek, H01, 1/11/2024-->
+<meta charset="utf-8">
+<style>
+body{background-color:red}
+
+h1{font-size:75pt;text-align:center;}
+h2{text-align:center;font-size:55pt;color: white}
+h3{text-align:center;font-size:35pt;color: white}
+div{text-align:center}
+h4{text-align:center;font-size:25pt;color: black}
+</style>
+
+<script>
+function newcolor(){document.body.style.backgroundColor="pink"}
+function colorchange(x){document.body.style.backgroundColor=x}
+
+
+</script>
+</head>
+<body>
+<h1 onclick="newcolor()">Happy Valentines Day!!
+</h1>
+<h2 onmouseover="colorchange('#FF33B1')"> A Valentines to All of the Animals and Pets I love. 
+</h2>
+
+<h3 onclick="this.innerHTML='My Cats: Myko and Louis';">My Dogs: Thor and Juno </h3> 
+<h4 onclick="this.innerHTML='Myko' "> Thor </h4>
+<div><img height="300" width="350" src="thor.jpeg" alt= "Thor"></div>
+<div><img height="300" width="350" src="myko.jpg" alt= "Myko"></div>
+<h4 onclick="this.innerHTML=' Louis';"> Juno </h4>
+<div><img height="350" width="350" src="juno.jpg" alt= "Juno"></div>
+<div><img height="300" width="350" src="louis.jpg" alt= "Louis"></div>
+</body>
+</html>
